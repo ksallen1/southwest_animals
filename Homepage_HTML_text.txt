@@ -1,0 +1,15 @@
+<html>
+<body>
+
+	<h1> Animals of the Southwest
+	</h1>
+		<h2><strong>The Homepage</strong>
+		</h2>
+<p> Placeholder summary:This website is the group project and teaches about animals of the American Southwest</p>
+
+<p> Reminder:We need hyperlinks to the four animal types</p>
+
+</body>
+
+
+</html>

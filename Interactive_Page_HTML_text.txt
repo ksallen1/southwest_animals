@@ -1,0 +1,17 @@
+<html>
+<body>
+
+	<h1> Animals of the Southwest
+	</h1>
+		<h2><strong>Maps and Stats</strong>
+		</h2>
+<p> This is the map and or stats page with an interactive element</p>
+
+<p> Reminder:Hyperlink back to the hompeage</p>
+
+<p>Reminder: Add a table</p>
+<p> Reminder: Add an interactive element</p>
+</body>
+
+
+</html>
