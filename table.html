@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Animal Stats</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Platypi">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Platypi", serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+
+<body>
+<!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+      <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-theme-l1">Group 1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+      <a href="sign-up.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Sign In/ Sign Up</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Stats</a>
+      <a href="account.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Account</a>
+    </div>
+  </div>
+<!-- Sidebar -->
+  <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+    <h4 class="w3-bar-item"><b>Menu</b></h4>
+    <a class="w3-bar-item w3-button w3-hover-black" href="Coyote-test.html">Coyote</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="Snakes-test.html">Snakes</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="Birds-test.html">Birds</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="Rodents-test.html">Rodents</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="Peccary-test.html">Peccary</a>
+  </nav>
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+    <h1 class="w3-text-brown">Southwest Animal Stats</h1>
+    <hr>
+  <table>
+    <thead>
+      <tr>
+        <th>Animal</th>
+        <th>Habitat</th>
+        <th>Range</th>
+        <th>Conservation Status</th>
+        <th>Diet</th>
+        <th>Predators</th>
+        <th>Arizona State Parks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Javelina</td>
+        <td>Desert washes, forests, woodlands, grasslands</td>
+        <td>Southwest Texas, New Mexico, Arizona, southward through Mexico and Central America and into northern Argentina</td>
+        <td>Least Concern</td>
+        <td>Worms, Grubs, Roots, Cacti</td>
+        <td>Mountain lions, humans, coyotes, bobcats, jaguars</td>
+        <td>Catalina, Dead Horse, Lost Dutchman, Patagonia, Red Rock, Slide Rock</td>
+      </tr>
+      <tr>
+        <td>Coyote</td>
+        <td>Deserts, coniferous and deciduous forests, grasslands, prairies</td>
+        <td>North America, Central America</td>
+        <td>Least Concern</td>
+        <td>Rodents, reptiles, birds</td>
+        <td>Humans, wolves, cougars</td>
+        <td>Catalina, Lost Dutchman, Red Rock, River Island</td>
+      </tr>
+      <tr>
+        <td>Great Blue Heron</td>
+        <td>Nest in trees, spend most time near bodies of water</td>
+        <td>North America, Central America, northwestern South America, Caribbean and Galapagos Islands</td>
+        <td>Least Concern</td>
+        <td>Fish, Frogs, Salamanders</td>
+        <td>Predators</td>
+        <td>Roper Lake, Patagonia Lake, Dead Horse Ranch</td>
+      </tr>
+      <tr>
+        <td>Western Diamondback Rattlesnake</td>
+        <td>Habitat</td>
+        <td>Range</td>
+        <td>Least Concern</td>
+        <td>Anything they can fit in their mouths</td>
+        <td>Coyotes, Bobcats, Roadrunners, King Snakes, Birds of Prey</td>
+        <td>Nearly all</td>
+      </tr>
+      <tr>
+        <td>Black-tailed Jackrabbit</td>
+        <td>Open flat places, desert scrub, mesquite grasslands</td>
+        <td>Baja California, South Central Mexico to west-central and western United States</td>
+        <td>Least Concern</td>
+        <td>Grasses, leves, clover, alfalfa, twigs, seeds, beans, cacti</td>
+        <td>Coyotes, Red-tailed Hawks, Ferruginous Hawks, eagles, foxes, bobcats, humans</td>
+        <td>Homolovi, Kartchner Caverns, Lost Dutchman, Lyman Lake, Picacho Peak, Sonoita Creek</td>
+      </tr>
+      <tr>
+        <td>Great Horned Owl</td>
+        <td>Every type in the Sonoran Desert region</td>
+        <td>United States, parts of Canada, Central and South America</td>
+        <td>Least Concern</td>
+        <td>Small mammals, birds, reptiles, amphibians, insects, fish, crustaceans, carrion</td>
+        <td>Other Great Horned Owls, Peregrine Falcons, humans</td>
+        <td>Buckskin Mountain, Catalina, Dankworth, Oracle, Roper Lake</td>
+      </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+<footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>LIS 471/571 Group 1</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+</footer>
+
+<!-- END MAIN -->
+  </div>
+</div>
+  <script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+</body>
+</html>
