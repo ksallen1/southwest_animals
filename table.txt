@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <table>
+    <thead>
+      <tr>
+        <th>Animal</th>
+        <th>Habitat</th>
+        <th>Range</th>
+        <th>Conservation Status</th>
+        <th>Diet</th>
+        <th>Predators</th>
+        <th>Arizona State Parks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Javelina</td>
+        <td>Desert washes, forests, woodlands, grasslands</td>
+        <td>Southwest Texas, New Mexico, Arizona, southward through Mexico and Central America and into northern Argentina</td>
+        <td>Least Concern</td>
+        <td>Worms, Grubs, Roots, Cacti</td>
+        <td>Mountain lions, humans, coyotes, bobcats, jaguars</td>
+        <td>Catalina, Dead Horse, Lost Dutchman, Patagonia, Red Rock, Slide Rock</td>
+      </tr>
+      <tr>
+        <td>Coyote</td>
+        <td>Deserts, coniferous and deciduous forests, grasslands, prairies</td>
+        <td>North America, Central America</td>
+        <td>Least Concern</td>
+        <td>Rodents, reptiles, birds</td>
+        <td>Humans, wolves, cougars</td>
+        <td>Catalina, Lost Dutchman, Red Rock, River Island</td>
+      </tr>
+      <tr>
+        <td>Great Blue Heron</td>
+        <td>Nest in trees, spend most time near bodies of water</td>
+        <td>North America, Central America, northwestern South America, Caribbean and Galapagos Islands</td>
+        <td>Least Concern</td>
+        <td>Fish, Frogs, Salamanders</td>
+        <td>Predators</td>
+        <td>Roper Lake, Patagonia Lake, Dead Horse Ranch</td>
+      </tr>
+      <tr>
+        <td>Western Diamondback Rattlesnake</td>
+        <td>Habitat</td>
+        <td>Range</td>
+        <td>Least Concern</td>
+        <td>Anything they can fit in their mouths</td>
+        <td>Coyotes, Bobcats, Roadrunners, King Snakes, Birds of Prey</td>
+        <td>Nearly all</td>
+      </tr>
+      <tr>
+        <td>Black-tailed Jackrabbit</td>
+        <td>Open flat places, desert scrub, mesquite grasslands</td>
+        <td>Baja California, South Central Mexico to west-central and western United States</td>
+        <td>Least Concern</td>
+        <td>Grasses, leves, clover, alfalfa, twigs, seeds, beans, cacti</td>
+        <td>Coyotes, Red-tailed Hawks, Ferruginous Hawks, eagles, foxes, bobcats, humans</td>
+        <td>Homolovi, Kartchner Caverns, Lost Dutchman, Lyman Lake, Picacho Peak, Sonoita Creek</td>
+      </tr>
+      <tr>
+        <td>Great Horned Owl</td>
+        <td>Every type in the Sonoran Desert region</td>
+        <td>United States, parts of Canada, Central and South America</td>
+        <td>Least Concern</td>
+        <td>Small mammals, birds, reptiles, amphibians, insects, fish, crustaceans, carrion</td>
+        <td>Other Great Horned Owls, Peregrine Falcons, humans</td>
+        <td>Buckskin Mountain, Catalina, Dankworth, Oracle, Roper Lake</td>
+      </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+</body>
+</html>
